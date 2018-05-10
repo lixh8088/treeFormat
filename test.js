@@ -1,4 +1,12 @@
-var aaa = [{ name: 'wwb', id: 111 }, { name: 'aaa', id: 0, pid: "mei" }, { name: 'a', id: 1, pid: "mei" }, { name: 'b', id: 2, pid: 1 }, { name: 'c', id: 3, pid: 1 }, { name: 'd', id: 4, pid: 2 }, { name: 'e', id: 5, pid: 2 }];
+var aaa = [
+    { name: 'wwb', id: 111 }, 
+    { name: 'aaa', id: 0, pid: "mei" }, 
+    { name: 'a', id: 1, pid: "mei" }, 
+    { name: 'b', id: 2, pid: 1 }, 
+    { name: 'c', id: 3, pid: 1 }, 
+    { name: 'd', id: 4, pid: 2 }, 
+    { name: 'e', id: 5, pid: 2 }
+];
 
 var transformTozTreeFormat = function(sNodes,id,parentId,childNode) {
     var i,l,
